@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/salon_de_clases"
+    tools:context="com.jesusramirez.proyecto.views.PantallaInicial">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorPrimaryTransparent"
+        android:orientation="vertical"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:id="@+id/textbienvenido"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/tvBienvenido"
+            android:textColor="@color/primaryText"
+            android:textSize="@dimen/textsize_large"
+            android:gravity="center"/>
+
+    </LinearLayout>
+
+</android.support.design.widget.CoordinatorLayout>

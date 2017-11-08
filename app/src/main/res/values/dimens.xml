@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="marginbtn">20dp</dimen>
+    <dimen name="ettext_size">20sp</dimen>
+    <dimen name="margin_layout">30dp</dimen>
+    <dimen name="buttonTop_margin">20dp</dimen>
+    <dimen name="etapellidos">150dp</dimen>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="nav_header_vertical_spacing">16dp</dimen>
+    <dimen name="nav_header_height">160dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="paddingLayout">30dp</dimen>
+    <dimen name="tv_textochico">15sp</dimen>
+    <dimen name="paddingtv_login">10dp</dimen>
+    <dimen name="imgbtn_login">30dp</dimen>
+    <dimen name="tv_textomediano">17sp</dimen>
+    <dimen name="tv_textogrande">22sp</dimen>
+    <!-- Tamaño de texto para la app -->
+    <dimen name="textsize_xxsmall">20sp</dimen>
+    <dimen name="textsize_xsmall">24sp</dimen>
+    <dimen name="textsize_small">34sp</dimen>
+    <dimen name="textsize_medium">45sp</dimen>
+    <dimen name="textsize_large">56sp</dimen>
+    <dimen name="textsize_xlarge">112sp</dimen>
+    <dimen name="fabsize">60dp</dimen>
+    <dimen name="activity_margin">30dp</dimen>
+</resources>

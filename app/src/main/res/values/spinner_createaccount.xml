@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="spinner_createaccount">
+        <item>SELECCIONAR</item>
+        <item>MAESTRO</item>
+        <item>ALUMNO</item>
+    </string-array>
+</resources>

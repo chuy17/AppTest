@@ -1,0 +1,60 @@
+<resources>
+    <string name="app_name">Proyecto</string>
+    <string name="textcorreo_login">Correo</string>
+    <string name="textcontraseña_login">Contraseña</string>
+    <string name="btnentrar_login">Entrar</string>
+    <string name="toolbar_title_createaccount">Crear cuenta</string>
+    <string name="createAccountClass">Crear cuenta</string>
+    <string name="etnombres_createaccount">Nombre(s)</string>
+    <string name="etcorreo_createaccount">Correo</string>
+    <string name="etcontraseña_createaccount">Contraseña</string>
+    <string name="etconfirmarcontraseña_createaccount">Confirmar contraseña</string>
+    <string name="btnregistrar_createaccount">Registrarse</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="etapellidoP_createaccount">Apellido Paterno</string>
+    <string name="etapellidoM_createaccount">Apellido Materno</string>
+    <string name="title_activity_maestro">Maestro</string>
+    <string name="title_activity_home_maestro">Maestros</string>
+
+    <string name="grupos_menu">Grupos</string>
+    <string name="tvor_login">ó puedes usar</string>
+    <string name="tvsincuenta_login">¿No tienes cuenta?,</string>
+    <string name="tvcreauna_login">Crea una aqui!</string>
+    <string name="imgbtn_facebook_login">Facebook</string>
+    <string name="imgbtn_google_login">Google</string>
+    <string name="check_tipocuenta1">Maestro</string>
+    <string name="check_tipocuenta2">Alumno</string>
+    <string name="text_tipocuenta_crearcuentax">Tipo de cuenta:</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Configuraciones</string>
+    <string name="nombre_usuario">Nombre de Usuario</string>
+    <string name="correo_usuario">Correo de Usuario</string>
+    <string name="grupos_navmenu">Grupos</string>
+    <string name="Horarios_navmenu">Horarios</string>
+    <string name="generarreportes_navmenu">Generar Reportes</string>
+    <string name="acercade_navmenu">Acerca de</string>
+    <string name="cerrarsession_navmenu">Cerrar sesion</string>
+    <string name="tvBienvenido">Bienvenido!</string>
+    <string name="title_activity_home_alumno">HomeAlumno</string>
+    <string name="nav_cerrarsesion">Cerrar Sesion</string>
+    <string name="cuenta_navmenu">Cuenta</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="nuevo_grupo_fragment">Nuevo Grupo</string>
+    <string name="textnombremateria_grupos">Nombre de materia</string>
+    <string name="diasclase_grupo">Dias de clase:</string>
+    <string name="tvcriteriosdeevaluacion_grupos">Criterios de evaluacion</string>
+    <string name="btncreargrupo_grupos">Crear Grupo</string>
+    <string name="tvaPaterno">Paterno</string>
+    <string name="tvaMaterno">Materno</string>
+    <string name="tvNombres">Nombre(s)</string>
+    <string name="JoR">R</string>
+    <string name="etcapacidad_creargrupo">Capacidad de Grupo</string>
+    <string name="etfaltaspermitidas_creargrupo">Faltas Permitidas</string>
+    <string name="etsalon_creargrupo">Lugar</string>
+</resources>

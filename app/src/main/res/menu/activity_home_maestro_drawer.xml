@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_grupos"
+            android:icon="@drawable/icons8_graduation_cap"
+            android:title="@string/grupos_navmenu" />
+        <item
+            android:id="@+id/nav_horarios"
+            android:icon="@drawable/icons8_calendar"
+            android:title="@string/Horarios_navmenu" />
+        <item
+            android:id="@+id/nav_generarreportes"
+            android:icon="@drawable/icons8_combo_chart"
+            android:title="@string/generarreportes_navmenu" />
+        <item
+            android:id="@+id/nav_manage"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Tools" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_cuenta"
+                android:icon="@drawable/icons8_customer"
+                android:title="@string/cuenta_navmenu" />
+            <item
+                android:id="@+id/nav_acercade"
+                android:icon="@drawable/icons8_about"
+                android:title="@string/acercade_navmenu" />
+            <item
+                android:id="@+id/nav_cerrarsesionM"
+                android:icon="@drawable/icons8_sign_out"
+                android:title="@string/cerrarsession_navmenu" />
+        </menu>
+    </item>
+
+</menu>

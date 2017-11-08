@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.jesusramirez.proyecto.views.CreateAccount">
+
+    <include layout="@layout/activity_toolbar" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="1"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_weight="0.35"
+            android:gravity="center">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/profile_image"
+                android:layout_width="110dp"
+                android:layout_height="110dp"
+                android:src="@drawable/profile_default"
+                app:civ_border_width="2dp"
+                app:civ_border_color="#FF000000"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_weight="0.23">
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fillViewport="true"
+                android:layout_marginRight="@dimen/margin_layout"
+                android:layout_marginLeft="@dimen/margin_layout">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:weightSum="1">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_weight="0.1">
+
+                        <android.support.design.widget.TextInputLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:theme="@style/EditTextBlack">
+
+                            <android.support.design.widget.TextInputEditText
+                                android:id="@+id/etnombres_createaccount"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:hint="@string/etnombres_createaccount"
+                                android:layout_gravity="end"/>
+                        </android.support.design.widget.TextInputLayout>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.1">
+
+                        <android.support.design.widget.TextInputLayout
+                            android:layout_width="@dimen/etapellidos"
+                            android:layout_height="wrap_content"
+                            android:theme="@style/EditTextBlack"
+                            android:layout_marginRight="23dp">
+
+                            <android.support.design.widget.TextInputEditText
+                                android:id="@+id/etapellidoP_createaccount"
+                                android:layout_width="@dimen/etapellidos"
+                                android:layout_height="wrap_content"
+                                android:hint="@string/etapellidoP_createaccount"
+                                android:inputType="text" />
+                        </android.support.design.widget.TextInputLayout>
+
+                        <android.support.design.widget.TextInputLayout
+                            android:layout_width="@dimen/etapellidos"
+                            android:layout_height="wrap_content"
+                            android:theme="@style/EditTextBlack">
+
+                            <android.support.design.widget.TextInputEditText
+                                android:id="@+id/etapellidoM_createaccount"
+                                android:layout_width="@dimen/etapellidos"
+                                android:layout_height="wrap_content"
+                                android:hint="@string/etapellidoM_createaccount"
+                                android:inputType="textEmailAddress" />
+                        </android.support.design.widget.TextInputLayout>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:layout_weight="0.8">
+
+                        <android.support.design.widget.TextInputLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:theme="@style/EditTextBlack">
+
+                            <android.support.design.widget.TextInputEditText
+                                android:id="@+id/etcorreo_createaccount"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:hint="@string/etcorreo_createaccount"
+                                android:inputType="textEmailAddress"
+                                />
+                        </android.support.design.widget.TextInputLayout>
+
+                        <android.support.design.widget.TextInputLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:theme="@style/EditTextBlack">
+
+                            <android.support.design.widget.TextInputEditText
+                                android:id="@+id/etcontraseña_createaccount"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:hint="@string/etcontraseña_createaccount"
+                                android:inputType="textPassword" />
+                        </android.support.design.widget.TextInputLayout>
+
+                        <android.support.design.widget.TextInputLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:theme="@style/EditTextBlack">
+
+                            <android.support.design.widget.TextInputEditText
+                                android:id="@+id/etconfirmarcontraseña_createaccount"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:hint="@string/etconfirmarcontraseña_createaccount"
+                                android:inputType="textPassword"
+                                android:layout_marginBottom="@dimen/paddingtv_login"/>
+                        </android.support.design.widget.TextInputLayout>
+
+                        <TextView
+                            android:id="@+id/textView2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/text_tipocuenta_crearcuentax"
+                            android:textSize="@dimen/tv_textogrande"
+                            android:textColor="@color/secundaryText"
+                            android:paddingTop="5dp"
+                            android:paddingBottom="5dp"/>
+
+                        <Spinner
+                            android:id="@+id/spinner_createaccount"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"></Spinner>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </ScrollView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="bottom"
+            android:layout_weight="0.42">
+
+            <Button
+                android:id="@+id/btnregistrar_createaccount"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/btnregistrar_createaccount"
+                android:theme="@style/RaisedButtonDark"
+                android:layout_marginTop="@dimen/buttonTop_margin"
+                android:onClick="registrarse"
+                android:layout_marginLeft="@dimen/buttonTop_margin"
+                android:layout_marginRight="@dimen/buttonTop_margin"
+                android:layout_marginBottom="@dimen/buttonTop_margin"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</android.support.design.widget.CoordinatorLayout>
